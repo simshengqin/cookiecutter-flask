@@ -1,0 +1,6 @@
+[run]
+source = cookiecutterssqapp
+omit = 
+    tests/*
+    autoapp.py
+
