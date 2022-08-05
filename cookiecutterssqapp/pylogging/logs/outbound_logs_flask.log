@@ -1,0 +1,645 @@
+2022-08-03 11:48:36,535 [Thread-20 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 11:48:36,548 [Thread-20 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 11:48:36,549 [Thread-20 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 11:48:36,550 [Thread-20 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 11:48:36,551 [Thread-20 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 03:47:49 GMT
+2022-08-03 11:48:36,551 [Thread-20 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 03:47:49 GMT
+2022-08-03 11:48:36,552 [Thread-20 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 11:48:36,553 [Thread-20 (p] [DEBUG]  header: Server: gws
+2022-08-03 11:48:36,554 [Thread-20 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 11:48:36,555 [Thread-20 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 11:48:36,555 [Thread-20 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 11:48:36,556 [Thread-20 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 11:48:36,580 [Thread-20 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 11:48:36,630 [Thread-20 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 11:48:36,630 [Thread-20 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 03:47:49 GMT
+2022-08-03 11:48:36,631 [Thread-20 (p] [DEBUG]  header: Expires: -1
+2022-08-03 11:48:36,632 [Thread-20 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 11:48:36,632 [Thread-20 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 11:48:36,634 [Thread-20 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 11:48:36,634 [Thread-20 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 11:48:36,635 [Thread-20 (p] [DEBUG]  header: Server: gws
+2022-08-03 11:48:36,635 [Thread-20 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 11:48:36,636 [Thread-20 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 11:48:36,636 [Thread-20 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-03; expires=Fri, 02-Sep-2022 03:47:49 GMT; path=/; domain=.google.com; Secure
+2022-08-03 11:48:36,637 [Thread-20 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGPRimVf0INKqs55kHWAfvFICNoRvK8aa8dqt0UMtOOyVOXFOu5-cvI; expires=Mon, 30-Jan-2023 03:47:49 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 11:48:36,638 [Thread-20 (p] [DEBUG]  header: Set-Cookie: NID=511=U8DMCQLupTRbkgs9neOOiFJUVeRZC3q0x6KP4K8WphwNnnRfnJrtyjZ5gQkyy-f8ue5TPHsnLNFPeuy_9TS2htyRQ9nRhGnDfZwddrdZ-di9DF4ozKCFfHhwSqkaTLziKWakroyAHvZtcTXoMqXWc7katb-fFZhUZWwp6lFix7Y; expires=Thu, 02-Feb-2023 03:47:49 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 11:48:36,638 [Thread-20 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 11:48:36,639 [Thread-20 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:11:28,167 [Thread-8 (pr] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:11:28,182 [Thread-8 (pr] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:11:28,185 [Thread-8 (pr] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:11:28,188 [Thread-8 (pr] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:11:28,189 [Thread-8 (pr] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:10:40 GMT
+2022-08-03 14:11:28,190 [Thread-8 (pr] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:10:40 GMT
+2022-08-03 14:11:28,191 [Thread-8 (pr] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:11:28,191 [Thread-8 (pr] [DEBUG]  header: Server: gws
+2022-08-03 14:11:28,193 [Thread-8 (pr] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:11:28,195 [Thread-8 (pr] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:11:28,196 [Thread-8 (pr] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:11:28,197 [Thread-8 (pr] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:11:28,230 [Thread-8 (pr] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:11:28,278 [Thread-8 (pr] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:11:28,280 [Thread-8 (pr] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:10:41 GMT
+2022-08-03 14:11:28,281 [Thread-8 (pr] [DEBUG]  header: Expires: -1
+2022-08-03 14:11:28,283 [Thread-8 (pr] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:11:28,284 [Thread-8 (pr] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:11:28,286 [Thread-8 (pr] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:11:28,288 [Thread-8 (pr] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:11:28,288 [Thread-8 (pr] [DEBUG]  header: Server: gws
+2022-08-03 14:11:28,290 [Thread-8 (pr] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:11:28,291 [Thread-8 (pr] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:11:28,292 [Thread-8 (pr] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:10:41 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:11:28,293 [Thread-8 (pr] [DEBUG]  header: Set-Cookie: AEC=AakniGNmGxGs41kD_LjBa58KzUnHUhg5oBdgvX5WSpKlkue_jv9ySK4aZg; expires=Mon, 30-Jan-2023 06:10:41 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:11:28,294 [Thread-8 (pr] [DEBUG]  header: Set-Cookie: NID=511=RoXUW6xgQRBhDymoDEzgkjRDr9FuVo7aSCEw3FMXwtoyPUTlHAY_1_hdTVofExdAGzdj15QPUETB8x6qCG9Ni5f5uZmKo7XVSqmwEf9WKXRXMAwEmeRIg0IfjcvUu1xpM8DPlzviKC1vv8JHi02I6j0kF-kpt8KimgHRGot-rls; expires=Thu, 02-Feb-2023 06:10:40 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:11:28,295 [Thread-8 (pr] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:11:28,296 [Thread-8 (pr] [DEBUG]  header: Transfer-Encoding: chunked
+
+2022-08-03 14:11:42,581 [Thread-14 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:11:42,594 [Thread-14 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:11:42,596 [Thread-14 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:11:42,596 [Thread-14 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:11:42,597 [Thread-14 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:10:55 GMT
+2022-08-03 14:11:42,599 [Thread-14 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:10:55 GMT
+2022-08-03 14:11:42,600 [Thread-14 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:11:42,600 [Thread-14 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:11:42,600 [Thread-14 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:11:42,601 [Thread-14 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:11:42,602 [Thread-14 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:11:42,602 [Thread-14 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:11:42,628 [Thread-14 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:11:42,676 [Thread-14 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:11:42,678 [Thread-14 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:10:55 GMT
+2022-08-03 14:11:42,681 [Thread-14 (p] [DEBUG]  header: Expires: -1
+2022-08-03 14:11:42,682 [Thread-14 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:11:42,683 [Thread-14 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:11:42,683 [Thread-14 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:11:42,684 [Thread-14 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:11:42,684 [Thread-14 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:11:42,685 [Thread-14 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:11:42,686 [Thread-14 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:11:42,686 [Thread-14 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:10:55 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:11:42,687 [Thread-14 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGOidmEDegmcC4Tlg0Os2gJWNhWeYBdnKEGHwsHKBFJw0DkE6RzPEAM; expires=Mon, 30-Jan-2023 06:10:55 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:11:42,688 [Thread-14 (p] [DEBUG]  header: Set-Cookie: NID=511=KmjHJV4BDlm5MYJwJvPa-HZiD_VDHsTkUS_AE7q-ZVASidbma4Qc6wYePOsmXSayzrIWq-VHAq1F_RZRBhcx8mbOWKuWxLn6SVF4TUl6p60DmG42gSkg33uHCU1WeCcnhEfcCYeT9mxDK9uDSkw5J0QS9yj9qCBybrWFN_6J09U; expires=Thu, 02-Feb-2023 06:10:55 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:11:42,689 [Thread-14 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:11:42,689 [Thread-14 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:12:04,656 [Thread-20 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:12:04,668 [Thread-20 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:12:04,670 [Thread-20 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:12:04,670 [Thread-20 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:12:04,671 [Thread-20 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:11:17 GMT
+2022-08-03 14:12:04,672 [Thread-20 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:11:17 GMT
+2022-08-03 14:12:04,673 [Thread-20 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:12:04,674 [Thread-20 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:12:04,674 [Thread-20 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:12:04,675 [Thread-20 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:12:04,676 [Thread-20 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:12:04,676 [Thread-20 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:12:04,702 [Thread-20 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:12:04,752 [Thread-20 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:12:04,754 [Thread-20 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:11:17 GMT
+2022-08-03 14:12:04,754 [Thread-20 (p] [DEBUG]  header: Expires: -1
+2022-08-03 14:12:04,755 [Thread-20 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:12:04,756 [Thread-20 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:12:04,757 [Thread-20 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:12:04,758 [Thread-20 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:12:04,759 [Thread-20 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:12:04,760 [Thread-20 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:12:04,760 [Thread-20 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:12:04,761 [Thread-20 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:11:17 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:12:04,762 [Thread-20 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGPu5CI8Fx-X4vIT0gSyfTcYd8j0R0wp-FvvgGS5eg3U1hlCk3VtOg; expires=Mon, 30-Jan-2023 06:11:17 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:12:04,764 [Thread-20 (p] [DEBUG]  header: Set-Cookie: NID=511=AOnqxc_4RGqsK2P1o38OcwqVHi5ZtPiYPyvuG8HNBhbgNMoZeAv273g_u4_HKs75FIRopvZIUH1h18yuwNE4BLsuXLYQnm4F7wrbKFqNRO0Bro-l2EEwVg6ch7feDPB4JX-WpmxfCkSeyLFPnAwCzIKLmuVo3J7sHYe41KSG_2c; expires=Thu, 02-Feb-2023 06:11:17 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:12:04,765 [Thread-20 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:12:04,766 [Thread-20 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:22:34,807 [Thread-26 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:22:34,820 [Thread-26 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:22:34,823 [Thread-26 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:22:34,823 [Thread-26 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:22:34,824 [Thread-26 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:21:47 GMT
+2022-08-03 14:22:34,825 [Thread-26 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:21:47 GMT
+2022-08-03 14:22:34,826 [Thread-26 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:22:34,827 [Thread-26 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:22:34,827 [Thread-26 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:22:34,828 [Thread-26 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:22:34,829 [Thread-26 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:22:34,830 [Thread-26 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:22:34,899 [Thread-26 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:22:34,953 [Thread-26 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:22:34,954 [Thread-26 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:21:47 GMT
+2022-08-03 14:22:34,955 [Thread-26 (p] [DEBUG]  header: Expires: -1
+2022-08-03 14:22:34,956 [Thread-26 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:22:34,957 [Thread-26 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:22:34,958 [Thread-26 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:22:34,959 [Thread-26 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:22:34,959 [Thread-26 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:22:34,960 [Thread-26 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:22:34,961 [Thread-26 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:22:34,962 [Thread-26 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:21:47 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:22:34,963 [Thread-26 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGNs0wJfvlhL7h-e0dF6M1P1xk8RCgI5q1qoRDcxUdlU3V96JFNgUA; expires=Mon, 30-Jan-2023 06:21:47 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:22:34,964 [Thread-26 (p] [DEBUG]  header: Set-Cookie: NID=511=Aa-157oli3cq0mRDlUeyYx4zmEl98FHZYYDVDUjQC3ID7cH7cAC9VvsdyV3GBkdAtTXYFAiWZcFi3bBRr_YJBhn0DP9afhZ0w9rd4Dw3xbWxkooEw276L3mV2awbMkCxe1zy2K5nVuXdnPwPS_4ZPRgodPDzqKKFHpdMEDuYsMg; expires=Thu, 02-Feb-2023 06:21:47 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:22:34,965 [Thread-26 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:22:34,966 [Thread-26 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:22:35,408 [Thread-32 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:22:35,421 [Thread-32 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:22:35,422 [Thread-32 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:22:35,422 [Thread-32 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:22:35,424 [Thread-32 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:21:48 GMT
+2022-08-03 14:22:35,424 [Thread-32 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:21:48 GMT
+2022-08-03 14:22:35,425 [Thread-32 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:22:35,426 [Thread-32 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:22:35,427 [Thread-32 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:22:35,427 [Thread-32 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:22:35,428 [Thread-32 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:22:35,428 [Thread-32 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:22:35,453 [Thread-32 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:22:35,506 [Thread-32 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:22:35,508 [Thread-32 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:21:48 GMT
+2022-08-03 14:22:35,510 [Thread-32 (p] [DEBUG]  header: Expires: -1
+2022-08-03 14:22:35,510 [Thread-32 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:22:35,511 [Thread-32 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:22:35,512 [Thread-32 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:22:35,513 [Thread-32 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:22:35,514 [Thread-32 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:22:35,515 [Thread-32 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:22:35,516 [Thread-32 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:22:35,517 [Thread-32 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:21:48 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:22:35,518 [Thread-32 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGP9bqet66H94bEtTfWU5NdwPxRbNJtzFFxzEEjujagnDwfjzWOEXw; expires=Mon, 30-Jan-2023 06:21:48 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:22:35,518 [Thread-32 (p] [DEBUG]  header: Set-Cookie: NID=511=roDrV6P-R2655CiNuDQZHiYSd7maDuqKHYprw8fHLqeVJoQatgI_ls1_OnspNNw_wUaJU-VycZWqNuaJWfMU0WjsyJ_FrpNWHEegOYNX50xzOx_stIC08bo3VXRLAz28AR9YE1k-K7HK5lySzKVBkBDoKkR3hg6IqfnQNIyESnI; expires=Thu, 02-Feb-2023 06:21:48 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:22:35,519 [Thread-32 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:22:35,520 [Thread-32 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:22:36,314 [Thread-38 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:22:36,327 [Thread-38 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:22:36,329 [Thread-38 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:22:36,330 [Thread-38 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:22:36,330 [Thread-38 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:21:49 GMT
+2022-08-03 14:22:36,331 [Thread-38 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:21:49 GMT
+2022-08-03 14:22:36,332 [Thread-38 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:22:36,333 [Thread-38 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:22:36,333 [Thread-38 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:22:36,334 [Thread-38 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:22:36,335 [Thread-38 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:22:36,335 [Thread-38 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:22:36,360 [Thread-38 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:22:36,410 [Thread-38 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:22:36,411 [Thread-38 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:21:49 GMT
+2022-08-03 14:22:36,412 [Thread-38 (p] [DEBUG]  header: Expires: -1
+2022-08-03 14:22:36,413 [Thread-38 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:22:36,413 [Thread-38 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:22:36,414 [Thread-38 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:22:36,415 [Thread-38 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:22:36,416 [Thread-38 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:22:36,416 [Thread-38 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:22:36,417 [Thread-38 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:22:36,418 [Thread-38 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:21:49 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:22:36,418 [Thread-38 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGMzlHRkmRArl1gggdsgxl7DiA2RKgEYE93nsz68fIn4CU_UJs-VpA; expires=Mon, 30-Jan-2023 06:21:49 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:22:36,419 [Thread-38 (p] [DEBUG]  header: Set-Cookie: NID=511=dgg4yBFA7yndSq3U1ssfV5poOIDoe3L5UE7ANPZMTio60zno6kf0mYDXEsByOTG5n1SeE0-H4mdx_mENd7lIegeh9xxU5nMIZghdBniEuipTSeGmlq2yPAqRkTT44Qv_9ujzfS7pqrIhiNzICDWTX-Xd3Bk445uDAKKQgms8Lro; expires=Thu, 02-Feb-2023 06:21:49 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:22:36,420 [Thread-38 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:22:36,421 [Thread-38 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:27:01,019 [Thread-45 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:27:01,032 [Thread-45 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:27:01,033 [Thread-45 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:27:01,034 [Thread-45 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:27:01,035 [Thread-45 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:26:13 GMT
+2022-08-03 14:27:01,035 [Thread-45 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:26:13 GMT
+2022-08-03 14:27:01,036 [Thread-45 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:27:01,037 [Thread-45 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:27:01,038 [Thread-45 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:27:01,038 [Thread-45 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:27:01,039 [Thread-45 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:27:01,040 [Thread-45 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:27:01,112 [Thread-45 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:27:01,162 [Thread-45 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:27:01,166 [Thread-45 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:26:13 GMT
+2022-08-03 14:27:01,168 [Thread-45 (p] [DEBUG]  header: Expires: -1
+2022-08-03 14:27:01,170 [Thread-45 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:27:01,172 [Thread-45 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:27:01,173 [Thread-45 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:27:01,174 [Thread-45 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:27:01,175 [Thread-45 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:27:01,176 [Thread-45 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:27:01,177 [Thread-45 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:27:01,179 [Thread-45 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:26:13 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:27:01,180 [Thread-45 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGMM9ci_NKtYZLrAkiXtrfTDkxxAPgVWmn3kN_yGrkxUj94O4Up4ZQ; expires=Mon, 30-Jan-2023 06:26:13 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:27:01,182 [Thread-45 (p] [DEBUG]  header: Set-Cookie: NID=511=RIiDy4-8hgdDkZHNYBglT8JXUNLLxGlabat-4GiGJeiyOU7fT1CGYC7zH640YEXCroo8dMb_AfEKp7taBd18-0BmQXMKjm6FlMYSnb8bWD7VWPglXjSS-QzBHRg01fVM77VCFAk7_OsOVE95eU6-cxGZ9bj7cu239nwumJhd36g; expires=Thu, 02-Feb-2023 06:26:13 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:27:01,183 [Thread-45 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:27:01,184 [Thread-45 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:27:14,215 [Thread-50 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:27:14,229 [Thread-50 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:27:14,230 [Thread-50 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:27:14,230 [Thread-50 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:27:14,231 [Thread-50 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:26:26 GMT
+2022-08-03 14:27:14,233 [Thread-50 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:26:26 GMT
+2022-08-03 14:27:14,234 [Thread-50 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:27:14,235 [Thread-50 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:27:14,236 [Thread-50 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:27:14,236 [Thread-50 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:27:14,238 [Thread-50 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:27:14,240 [Thread-50 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:27:14,266 [Thread-50 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:27:14,336 [Thread-50 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:27:14,338 [Thread-50 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:26:27 GMT
+2022-08-03 14:27:14,339 [Thread-50 (p] [DEBUG]  header: Expires: -1
+2022-08-03 14:27:14,340 [Thread-50 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:27:14,340 [Thread-50 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:27:14,341 [Thread-50 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:27:14,343 [Thread-50 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:27:14,343 [Thread-50 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:27:14,344 [Thread-50 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:27:14,344 [Thread-50 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:27:14,345 [Thread-50 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:26:27 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:27:14,346 [Thread-50 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGN5UJlb8qlRjynUD0w7OFWmKsT_qoJcUOh6m1aDAPphpYLyF8X4nQA; expires=Mon, 30-Jan-2023 06:26:27 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:27:14,347 [Thread-50 (p] [DEBUG]  header: Set-Cookie: NID=511=M77TBrMpZ9jaVgensHPOA3iJ0Ih1n_GP_lAqerbr5PXBaH8DVsWZNCv4kksQRPToSntiRoDEt5t2BL5OZXdS5cOcJEKO76WQWG0irOZ5vl985R4T0tmE-VqITe9Dxl1bU9wQJy31I2vZxqaQOtxaUQO3Zf2Kermgj_vVmQaVH5k; expires=Thu, 02-Feb-2023 06:26:27 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:27:14,347 [Thread-50 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:27:14,348 [Thread-50 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:28:04,291 [Thread-56 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:04,308 [Thread-56 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:28:04,310 [Thread-56 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:28:04,310 [Thread-56 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:28:04,311 [Thread-56 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:27:17 GMT
+2022-08-03 14:28:04,312 [Thread-56 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:27:17 GMT
+2022-08-03 14:28:04,313 [Thread-56 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:28:04,313 [Thread-56 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:28:04,314 [Thread-56 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:28:04,315 [Thread-56 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:04,316 [Thread-56 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:04,317 [Thread-56 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:04,346 [Thread-56 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:04,404 [Thread-56 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:28:04,405 [Thread-56 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:27:17 GMT
+2022-08-03 14:28:04,406 [Thread-56 (p] [DEBUG]  header: Expires: -1
+2022-08-03 14:28:04,407 [Thread-56 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:28:04,408 [Thread-56 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:28:04,409 [Thread-56 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:28:04,409 [Thread-56 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:28:04,410 [Thread-56 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:28:04,411 [Thread-56 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:04,412 [Thread-56 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:04,412 [Thread-56 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:27:17 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:28:04,413 [Thread-56 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGPRtXzq83_n3aTtAeaQQUbJvLVheuFnNdwdDwf1LpgufqCeh_ZAqw; expires=Mon, 30-Jan-2023 06:27:17 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:28:04,414 [Thread-56 (p] [DEBUG]  header: Set-Cookie: NID=511=vgAQcWXntxxPtZtUS_1vEO8P_i4fMYa5MlZnj8W0NE8ays8tMN3XhVIkYK--3UDYYRXjLeJBB2HViZu-u4pG4zGtgSYRveWA3VvBKbkN-xZMl-i1u0SoFDT0Etb5q5EAkfVFRKQLhTqSvEb0dElceVabbgGwoz-F38pAXZhE554; expires=Thu, 02-Feb-2023 06:27:17 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:28:04,415 [Thread-56 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:04,416 [Thread-56 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:28:15,222 [Thread-62 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:15,238 [Thread-62 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:28:15,240 [Thread-62 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:28:15,240 [Thread-62 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:28:15,241 [Thread-62 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:27:27 GMT
+2022-08-03 14:28:15,241 [Thread-62 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:27:27 GMT
+2022-08-03 14:28:15,242 [Thread-62 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:28:15,243 [Thread-62 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:28:15,243 [Thread-62 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:28:15,244 [Thread-62 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:15,244 [Thread-62 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:15,246 [Thread-62 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:15,276 [Thread-62 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:15,328 [Thread-62 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:28:15,329 [Thread-62 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:27:28 GMT
+2022-08-03 14:28:15,330 [Thread-62 (p] [DEBUG]  header: Expires: -1
+2022-08-03 14:28:15,331 [Thread-62 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:28:15,331 [Thread-62 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:28:15,331 [Thread-62 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:28:15,333 [Thread-62 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:28:15,333 [Thread-62 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:28:15,334 [Thread-62 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:15,335 [Thread-62 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:15,336 [Thread-62 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:27:28 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:28:15,336 [Thread-62 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGOqk19enfx2b_GQvK2jUkke99SvBBI5S4IapI8uJiplSNnJr6pvnA; expires=Mon, 30-Jan-2023 06:27:28 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:28:15,336 [Thread-62 (p] [DEBUG]  header: Set-Cookie: NID=511=DGGGNMeTQymrZtCjGzPvdd3_LSAPbnel_eO3xvOjjdgSh2EY2Sl1hPe1LbpxdAsep8Cemt0P5yhVLVENgxjugV7sdNgv8t8YeTCe2bywisT8uUJoYet4vyFMEVlT8GmGtBIZKqn_qtWLXj1G7iU5GiiETDX0L2ClMhZhNmRVCjY; expires=Thu, 02-Feb-2023 06:27:28 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:28:15,337 [Thread-62 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:15,338 [Thread-62 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:28:16,337 [Thread-68 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:16,353 [Thread-68 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:28:16,354 [Thread-68 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:28:16,355 [Thread-68 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:28:16,356 [Thread-68 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:27:29 GMT
+2022-08-03 14:28:16,357 [Thread-68 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:27:29 GMT
+2022-08-03 14:28:16,357 [Thread-68 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:28:16,358 [Thread-68 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:28:16,359 [Thread-68 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:28:16,360 [Thread-68 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:16,361 [Thread-68 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:16,362 [Thread-68 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:16,390 [Thread-68 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:16,433 [Thread-68 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:28:16,435 [Thread-68 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:27:29 GMT
+2022-08-03 14:28:16,436 [Thread-68 (p] [DEBUG]  header: Expires: -1
+2022-08-03 14:28:16,436 [Thread-68 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:28:16,437 [Thread-68 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:28:16,438 [Thread-68 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:28:16,439 [Thread-68 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:28:16,440 [Thread-68 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:28:16,440 [Thread-68 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:16,441 [Thread-68 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:16,441 [Thread-68 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:27:29 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:28:16,442 [Thread-68 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGP-wn9LAaS1z1JhUwUJ_RC0AmvWK3x0i-oXyGGrr-HITgB78W75WQ; expires=Mon, 30-Jan-2023 06:27:29 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:28:16,444 [Thread-68 (p] [DEBUG]  header: Set-Cookie: NID=511=ncfJKK34xqYEYIxU6-u5fwOLa0qJJyUXsRHGZl-ozS3JpLM6Ft3ZE_Rfnt6OQyNac9CZqeBK-qNKUUy_k1HSP2rdWvz1lNUQKoW0Q4Qi0rnRdb3VIWKwt40aXRUl0JdLlREB5SGZZCOjDeVEGjJteUmlrYhN06VJMhmafuIC8Bo; expires=Thu, 02-Feb-2023 06:27:29 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:28:16,445 [Thread-68 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:16,447 [Thread-68 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:28:17,276 [Thread-75 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:17,290 [Thread-75 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:28:17,291 [Thread-75 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:28:17,294 [Thread-75 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:28:17,294 [Thread-75 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:27:30 GMT
+2022-08-03 14:28:17,295 [Thread-75 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:27:30 GMT
+2022-08-03 14:28:17,296 [Thread-75 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:28:17,297 [Thread-75 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:28:17,298 [Thread-75 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:28:17,300 [Thread-75 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:17,300 [Thread-75 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:17,301 [Thread-75 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:17,333 [Thread-75 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:17,387 [Thread-75 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:28:17,388 [Thread-75 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:27:30 GMT
+2022-08-03 14:28:17,389 [Thread-75 (p] [DEBUG]  header: Expires: -1
+2022-08-03 14:28:17,390 [Thread-75 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:28:17,390 [Thread-75 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:28:17,391 [Thread-75 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:28:17,392 [Thread-75 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:28:17,393 [Thread-75 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:28:17,394 [Thread-75 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:17,394 [Thread-75 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:17,395 [Thread-75 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:27:30 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:28:17,396 [Thread-75 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGMssuOXceYnO0j4_u10pEtqTOxAvJ8lj4egLF8tl0hXIBVd6VKUs8k; expires=Mon, 30-Jan-2023 06:27:30 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:28:17,396 [Thread-75 (p] [DEBUG]  header: Set-Cookie: NID=511=cR3pHMZZyWrzVfu3ccllFV43MmOjOUeUwjnJQcKEeU0VUAdWTlfnk9RDreX9Mk_nK5d2yNH7SdPzRa4-LlwtLZ5P7T8dWqwthRQOlhygsRtR_8VOTsQBeauWDNpTHAQKvpRQF4KnUC_wuUInHOp993IoPBUr5oOc9kfJZ-0Eh58; expires=Thu, 02-Feb-2023 06:27:30 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:28:17,397 [Thread-75 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:17,398 [Thread-75 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:28:22,088 [Thread-85 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:22,102 [Thread-85 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:28:22,103 [Thread-85 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:28:22,103 [Thread-85 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:28:22,104 [Thread-85 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:27:34 GMT
+2022-08-03 14:28:22,105 [Thread-85 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:27:34 GMT
+2022-08-03 14:28:22,106 [Thread-85 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:28:22,107 [Thread-85 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:28:22,108 [Thread-85 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:28:22,109 [Thread-85 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:22,110 [Thread-85 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:22,110 [Thread-85 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:22,140 [Thread-85 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:22,192 [Thread-85 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:28:22,193 [Thread-85 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:27:34 GMT
+2022-08-03 14:28:22,193 [Thread-85 (p] [DEBUG]  header: Expires: -1
+2022-08-03 14:28:22,194 [Thread-85 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:28:22,195 [Thread-85 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:28:22,196 [Thread-85 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:28:22,196 [Thread-85 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:28:22,197 [Thread-85 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:28:22,198 [Thread-85 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:22,199 [Thread-85 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:22,201 [Thread-85 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:27:34 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:28:22,201 [Thread-85 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGOgeLAKibY-66TawljlRvSxvdUxawqPw3ZHws0ZeVbszNvI5amlvFc; expires=Mon, 30-Jan-2023 06:27:34 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:28:22,202 [Thread-85 (p] [DEBUG]  header: Set-Cookie: NID=511=Ffz3oTsVOlv35nZpYgS_-UVTHbmytPgUT6v_-njziI1MWjGrbUQIBz0AdPURjpG5ruYTdWLGVFHnZQ9A3JhzSoGXHcetdfG3d6tXAkTdWUF2dLVx4M7N3W3pb5CDmbkD45mLOtWmnwXnIGv7Rp4K6g11F_wc8TtecgTSfS80b6w; expires=Thu, 02-Feb-2023 06:27:34 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:28:22,203 [Thread-85 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:22,204 [Thread-85 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:28:46,696 [Thread-91 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:46,711 [Thread-91 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:28:46,712 [Thread-91 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:28:46,712 [Thread-91 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:28:46,713 [Thread-91 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:27:59 GMT
+2022-08-03 14:28:46,714 [Thread-91 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:27:59 GMT
+2022-08-03 14:28:46,715 [Thread-91 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:28:46,715 [Thread-91 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:28:46,716 [Thread-91 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:28:46,716 [Thread-91 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:46,717 [Thread-91 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:46,717 [Thread-91 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:46,750 [Thread-91 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:46,802 [Thread-91 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:28:46,803 [Thread-91 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:27:59 GMT
+2022-08-03 14:28:46,804 [Thread-91 (p] [DEBUG]  header: Expires: -1
+2022-08-03 14:28:46,805 [Thread-91 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:28:46,807 [Thread-91 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:28:46,807 [Thread-91 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:28:46,808 [Thread-91 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:28:46,809 [Thread-91 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:28:46,809 [Thread-91 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:46,809 [Thread-91 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:46,810 [Thread-91 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:27:59 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:28:46,811 [Thread-91 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGNX1lbdqBdCmBRgYvg587gfHJ9AqGbrFR047h6eF34naAMEx3jKwxg; expires=Mon, 30-Jan-2023 06:27:59 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:28:46,812 [Thread-91 (p] [DEBUG]  header: Set-Cookie: NID=511=YpQhm-kuJG_N2PvwHBDoHQot04PaNIP3-FYDrbzexYoayQ9-9yAtPXX4WGbxY4LAz2UjG99R3W9ndj1uK9_eWP3I4dTZXhiQhIuVMfaXT6pFuwVj3HjBmrrIdp9cVfCJdh549WGeK1siMaxNpyIAjLWw7z4P7DUKr5uGl6LezkY; expires=Thu, 02-Feb-2023 06:27:59 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:28:46,812 [Thread-91 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:46,813 [Thread-91 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:28:47,371 [Thread-97 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:47,385 [Thread-97 (p] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:28:47,387 [Thread-97 (p] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:28:47,388 [Thread-97 (p] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:28:47,388 [Thread-97 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:28:00 GMT
+2022-08-03 14:28:47,389 [Thread-97 (p] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:28:00 GMT
+2022-08-03 14:28:47,390 [Thread-97 (p] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:28:47,391 [Thread-97 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:28:47,392 [Thread-97 (p] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:28:47,393 [Thread-97 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:47,393 [Thread-97 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:47,394 [Thread-97 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:47,424 [Thread-97 (p] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:47,471 [Thread-97 (p] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:28:47,472 [Thread-97 (p] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:28:00 GMT
+2022-08-03 14:28:47,474 [Thread-97 (p] [DEBUG]  header: Expires: -1
+2022-08-03 14:28:47,475 [Thread-97 (p] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:28:47,475 [Thread-97 (p] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:28:47,476 [Thread-97 (p] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:28:47,477 [Thread-97 (p] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:28:47,478 [Thread-97 (p] [DEBUG]  header: Server: gws
+2022-08-03 14:28:47,478 [Thread-97 (p] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:47,479 [Thread-97 (p] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:47,480 [Thread-97 (p] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:28:00 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:28:47,480 [Thread-97 (p] [DEBUG]  header: Set-Cookie: AEC=AakniGMtMFYprH4figrBcBSJ4ge_HyBb8s4XdATgdTTteVL13vYTFCP1x5c; expires=Mon, 30-Jan-2023 06:28:00 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:28:47,481 [Thread-97 (p] [DEBUG]  header: Set-Cookie: NID=511=TVqlOndyoy8y5OSe-tVyeBhwIxJ5Kig_Az272yDwHKefztatERbKCsN2DaA2WuHceyFikGleg31OudwR61KwKZ_cWrVJGjrLUESY3lXwnk8JG1Pp0xunUr56ObHyg--CRDCSMwKNpQO_P30C3Gi6wx3vNnV4d9ywlRalsI6wYd4; expires=Thu, 02-Feb-2023 06:28:00 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:28:47,483 [Thread-97 (p] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:47,484 [Thread-97 (p] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:28:54,287 [Thread-108 (] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:54,304 [Thread-108 (] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:28:54,305 [Thread-108 (] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:28:54,306 [Thread-108 (] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:28:54,306 [Thread-108 (] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:28:07 GMT
+2022-08-03 14:28:54,307 [Thread-108 (] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:28:07 GMT
+2022-08-03 14:28:54,308 [Thread-108 (] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:28:54,308 [Thread-108 (] [DEBUG]  header: Server: gws
+2022-08-03 14:28:54,309 [Thread-108 (] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:28:54,310 [Thread-108 (] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:54,311 [Thread-108 (] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:54,312 [Thread-108 (] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:54,340 [Thread-108 (] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:54,398 [Thread-108 (] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:28:54,399 [Thread-108 (] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:28:07 GMT
+2022-08-03 14:28:54,401 [Thread-108 (] [DEBUG]  header: Expires: -1
+2022-08-03 14:28:54,402 [Thread-108 (] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:28:54,402 [Thread-108 (] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:28:54,403 [Thread-108 (] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:28:54,404 [Thread-108 (] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:28:54,404 [Thread-108 (] [DEBUG]  header: Server: gws
+2022-08-03 14:28:54,405 [Thread-108 (] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:54,406 [Thread-108 (] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:54,407 [Thread-108 (] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:28:07 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:28:54,407 [Thread-108 (] [DEBUG]  header: Set-Cookie: AEC=AakniGNR4TuttEWQ-XWgM0tYv7d2uWW55y3VLAqeyJFIpt8CXCpfmCha1Oc; expires=Mon, 30-Jan-2023 06:28:07 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:28:54,408 [Thread-108 (] [DEBUG]  header: Set-Cookie: NID=511=Dgv1nEBG7uHZEo-na8gQut0GygZ9v9MEF2jC0h3xKsjFMnW8suDX67IN9BZBrfEh76fCkVq5ZtboEiOWyFAo-GJG3Nl909nIo8iFoKvqGWLAnEItEmBh1DzIQJpU5T53wdepjdX7uCTD6NOiKXZcWmv9iKuCvD5amAeA4wt0-sY; expires=Thu, 02-Feb-2023 06:28:07 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:28:54,409 [Thread-108 (] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:54,410 [Thread-108 (] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:28:54,980 [Thread-114 (] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:55,001 [Thread-114 (] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:28:55,002 [Thread-114 (] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:28:55,003 [Thread-114 (] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:28:55,004 [Thread-114 (] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:28:07 GMT
+2022-08-03 14:28:55,004 [Thread-114 (] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:28:07 GMT
+2022-08-03 14:28:55,005 [Thread-114 (] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:28:55,005 [Thread-114 (] [DEBUG]  header: Server: gws
+2022-08-03 14:28:55,006 [Thread-114 (] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:28:55,006 [Thread-114 (] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:55,007 [Thread-114 (] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:55,007 [Thread-114 (] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:55,061 [Thread-114 (] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:55,117 [Thread-114 (] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:28:55,118 [Thread-114 (] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:28:07 GMT
+2022-08-03 14:28:55,119 [Thread-114 (] [DEBUG]  header: Expires: -1
+2022-08-03 14:28:55,119 [Thread-114 (] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:28:55,120 [Thread-114 (] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:28:55,120 [Thread-114 (] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:28:55,121 [Thread-114 (] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:28:55,122 [Thread-114 (] [DEBUG]  header: Server: gws
+2022-08-03 14:28:55,123 [Thread-114 (] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:55,124 [Thread-114 (] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:55,124 [Thread-114 (] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:28:07 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:28:55,125 [Thread-114 (] [DEBUG]  header: Set-Cookie: AEC=AakniGPVwZjgpgh5e3KwkDJThhZj9wJjl-BrNz_4LijpYTcTem_pByW7Kg; expires=Mon, 30-Jan-2023 06:28:07 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:28:55,125 [Thread-114 (] [DEBUG]  header: Set-Cookie: NID=511=CNtQyVH9lu94UlgWZW7q5B6CmsMN6nr3DIjQA7h5_3scleFJimaheQPEdL74nRFM5g2UN9BFFCwEvgT8zMG9-99PLEz5IyiJbBtbqyxZkOoR7VLWUqq4Gfl98KaswTrAL4ScC97UYyiNC_78onMdKDVSkdAy4r6kn30WFphCPHE; expires=Thu, 02-Feb-2023 06:28:07 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:28:55,126 [Thread-114 (] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:55,127 [Thread-114 (] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:28:55,499 [Thread-120 (] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:55,511 [Thread-120 (] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:28:55,512 [Thread-120 (] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:28:55,513 [Thread-120 (] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:28:55,514 [Thread-120 (] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:28:08 GMT
+2022-08-03 14:28:55,515 [Thread-120 (] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:28:08 GMT
+2022-08-03 14:28:55,516 [Thread-120 (] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:28:55,517 [Thread-120 (] [DEBUG]  header: Server: gws
+2022-08-03 14:28:55,517 [Thread-120 (] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:28:55,518 [Thread-120 (] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:55,519 [Thread-120 (] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:55,520 [Thread-120 (] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:55,546 [Thread-120 (] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:55,589 [Thread-120 (] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:28:55,590 [Thread-120 (] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:28:08 GMT
+2022-08-03 14:28:55,591 [Thread-120 (] [DEBUG]  header: Expires: -1
+2022-08-03 14:28:55,592 [Thread-120 (] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:28:55,593 [Thread-120 (] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:28:55,594 [Thread-120 (] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:28:55,595 [Thread-120 (] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:28:55,595 [Thread-120 (] [DEBUG]  header: Server: gws
+2022-08-03 14:28:55,596 [Thread-120 (] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:55,597 [Thread-120 (] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:55,598 [Thread-120 (] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:28:08 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:28:55,599 [Thread-120 (] [DEBUG]  header: Set-Cookie: AEC=AakniGOkLh3LnyOzicCGJBYgWhEWTkX5_m0tX5Agr7u0R_1MLfJdB6uOwWE; expires=Mon, 30-Jan-2023 06:28:08 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:28:55,600 [Thread-120 (] [DEBUG]  header: Set-Cookie: NID=511=YIhCljaJLN2P47_2s9MvfvbiVY3w_WTxMT4ttCUfO3IPtRfykjnV8NI-M_nAb_ooa_lacx8n06dZxduCw0ZE5e_HCLGflwOni6QFQFODACK7wZUszDC41guSRBCLa24eq0pWYpNz9dmAyDkgUsq-jgZKMzyZ0JyMcwOUWNP-ROI; expires=Thu, 02-Feb-2023 06:28:08 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:28:55,601 [Thread-120 (] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:55,601 [Thread-120 (] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:28:57,044 [Thread-126 (] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:57,070 [Thread-126 (] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:28:57,071 [Thread-126 (] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:28:57,072 [Thread-126 (] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:28:57,074 [Thread-126 (] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:28:09 GMT
+2022-08-03 14:28:57,075 [Thread-126 (] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:28:09 GMT
+2022-08-03 14:28:57,076 [Thread-126 (] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:28:57,076 [Thread-126 (] [DEBUG]  header: Server: gws
+2022-08-03 14:28:57,076 [Thread-126 (] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:28:57,077 [Thread-126 (] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:57,078 [Thread-126 (] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:57,078 [Thread-126 (] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:57,108 [Thread-126 (] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:57,169 [Thread-126 (] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:28:57,171 [Thread-126 (] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:28:09 GMT
+2022-08-03 14:28:57,172 [Thread-126 (] [DEBUG]  header: Expires: -1
+2022-08-03 14:28:57,173 [Thread-126 (] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:28:57,173 [Thread-126 (] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:28:57,174 [Thread-126 (] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:28:57,175 [Thread-126 (] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:28:57,175 [Thread-126 (] [DEBUG]  header: Server: gws
+2022-08-03 14:28:57,176 [Thread-126 (] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:57,176 [Thread-126 (] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:57,177 [Thread-126 (] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:28:09 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:28:57,178 [Thread-126 (] [DEBUG]  header: Set-Cookie: AEC=AakniGMcS0oLrab27awyhAoyeMOnSYrS525qU-KSq-TjdTgCYJ3Lu4QDr5w; expires=Mon, 30-Jan-2023 06:28:09 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:28:57,179 [Thread-126 (] [DEBUG]  header: Set-Cookie: NID=511=eUvXFX0ZQaa2ENSpKMXmVtuy0KOq6uJ9aw-le0btb7YBwIvVKVzjjXnWtQAtZsXlDVe7pC0p23ewUflLH2j9EPfszcu7HEXxzzUTVy-FPCzgg_NPVUwl6dyfG4Z5eTeiODFLZ6XCHhgXz8XKMhT5ZYcjkE92WPdjoGO6xRYGadQ; expires=Thu, 02-Feb-2023 06:28:09 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:28:57,180 [Thread-126 (] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:57,181 [Thread-126 (] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:28:57,435 [Thread-132 (] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:57,458 [Thread-132 (] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:28:57,459 [Thread-132 (] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:28:57,460 [Thread-132 (] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:28:57,460 [Thread-132 (] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:28:10 GMT
+2022-08-03 14:28:57,461 [Thread-132 (] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:28:10 GMT
+2022-08-03 14:28:57,461 [Thread-132 (] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:28:57,462 [Thread-132 (] [DEBUG]  header: Server: gws
+2022-08-03 14:28:57,462 [Thread-132 (] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:28:57,464 [Thread-132 (] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:57,464 [Thread-132 (] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:57,464 [Thread-132 (] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:57,500 [Thread-132 (] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:28:57,554 [Thread-132 (] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:28:57,556 [Thread-132 (] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:28:10 GMT
+2022-08-03 14:28:57,557 [Thread-132 (] [DEBUG]  header: Expires: -1
+2022-08-03 14:28:57,558 [Thread-132 (] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:28:57,558 [Thread-132 (] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:28:57,559 [Thread-132 (] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:28:57,560 [Thread-132 (] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:28:57,561 [Thread-132 (] [DEBUG]  header: Server: gws
+2022-08-03 14:28:57,561 [Thread-132 (] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:28:57,562 [Thread-132 (] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:28:57,563 [Thread-132 (] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:28:10 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:28:57,563 [Thread-132 (] [DEBUG]  header: Set-Cookie: AEC=AakniGOlHEqMDGI_kWq9BhNmnjOy-GX-aywvwHuW5bWUmupMtGgwl4yJS3U; expires=Mon, 30-Jan-2023 06:28:10 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:28:57,564 [Thread-132 (] [DEBUG]  header: Set-Cookie: NID=511=escFGap3K4iPzrYzQMUbVPjPhNJXqRBXkYMpQVf361Cx4WCkwQyoXKcH3PJ1JbCd_QBwCpetVeo2q8-gFIvx1d65NjJy9W3_oGzxFtf5ZnJNCgV2JDQHHjtQshCLbxdv7amL9Dz6bdgrhXxLJlBKsmdys3gNPUWr9Cv7AjVKbIE; expires=Thu, 02-Feb-2023 06:28:10 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:28:57,565 [Thread-132 (] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:28:57,566 [Thread-132 (] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:30:03,339 [Thread-139 (] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:30:03,357 [Thread-139 (] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:30:03,359 [Thread-139 (] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:30:03,360 [Thread-139 (] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:30:03,361 [Thread-139 (] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:29:16 GMT
+2022-08-03 14:30:03,362 [Thread-139 (] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:29:16 GMT
+2022-08-03 14:30:03,363 [Thread-139 (] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:30:03,363 [Thread-139 (] [DEBUG]  header: Server: gws
+2022-08-03 14:30:03,364 [Thread-139 (] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:30:03,364 [Thread-139 (] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:30:03,366 [Thread-139 (] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:30:03,366 [Thread-139 (] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:30:03,397 [Thread-139 (] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:30:03,446 [Thread-139 (] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:30:03,448 [Thread-139 (] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:29:16 GMT
+2022-08-03 14:30:03,448 [Thread-139 (] [DEBUG]  header: Expires: -1
+2022-08-03 14:30:03,449 [Thread-139 (] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:30:03,450 [Thread-139 (] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:30:03,450 [Thread-139 (] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:30:03,450 [Thread-139 (] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:30:03,451 [Thread-139 (] [DEBUG]  header: Server: gws
+2022-08-03 14:30:03,452 [Thread-139 (] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:30:03,452 [Thread-139 (] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:30:03,453 [Thread-139 (] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:29:16 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:30:03,453 [Thread-139 (] [DEBUG]  header: Set-Cookie: AEC=AakniGPUq191KlJvun_xvu09uKpbRAeuJLn_XTKg9XqMfmlM_jb1Yc-37Q; expires=Mon, 30-Jan-2023 06:29:16 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:30:03,454 [Thread-139 (] [DEBUG]  header: Set-Cookie: NID=511=W9c0Mz8Rcd8exCoNqCgx62CTX08RMsy5pVC63E-q1KOoSgMkpPMUJB49WO0gwIe1amd3-aTzuMM5J8X2YyovWDkWB9C1UiTBcw3wbiB1oLSq2onkwff1Bf7Swpz5yaE7iio5or33kn9cBY77DIV0OK3TL2pmxMLA5G2bSRNw_Gs; expires=Thu, 02-Feb-2023 06:29:16 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:30:03,455 [Thread-139 (] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:30:03,455 [Thread-139 (] [DEBUG]  header: Transfer-Encoding: chunked
+2022-08-03 14:30:04,062 [Thread-144 (] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:30:04,076 [Thread-144 (] [DEBUG]  reply: 'HTTP/1.1 301 Moved Permanently\r\n'
+2022-08-03 14:30:04,077 [Thread-144 (] [DEBUG]  header: Location: https://www.google.com/
+2022-08-03 14:30:04,078 [Thread-144 (] [DEBUG]  header: Content-Type: text/html; charset=UTF-8
+2022-08-03 14:30:04,079 [Thread-144 (] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:29:16 GMT
+2022-08-03 14:30:04,080 [Thread-144 (] [DEBUG]  header: Expires: Fri, 02 Sep 2022 06:29:16 GMT
+2022-08-03 14:30:04,081 [Thread-144 (] [DEBUG]  header: Cache-Control: public, max-age=2592000
+2022-08-03 14:30:04,081 [Thread-144 (] [DEBUG]  header: Server: gws
+2022-08-03 14:30:04,082 [Thread-144 (] [DEBUG]  header: Content-Length: 220
+2022-08-03 14:30:04,083 [Thread-144 (] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:30:04,083 [Thread-144 (] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:30:04,085 [Thread-144 (] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:30:04,115 [Thread-144 (] [DEBUG]  send: b'GET / HTTP/1.1\r\nHost: www.google.com\r\nUser-Agent: python-requests/2.28.1\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2022-08-03 14:30:04,156 [Thread-144 (] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2022-08-03 14:30:04,157 [Thread-144 (] [DEBUG]  header: Date: Wed, 03 Aug 2022 06:29:16 GMT
+2022-08-03 14:30:04,158 [Thread-144 (] [DEBUG]  header: Expires: -1
+2022-08-03 14:30:04,160 [Thread-144 (] [DEBUG]  header: Cache-Control: private, max-age=0
+2022-08-03 14:30:04,160 [Thread-144 (] [DEBUG]  header: Content-Type: text/html; charset=ISO-8859-1
+2022-08-03 14:30:04,161 [Thread-144 (] [DEBUG]  header: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2022-08-03 14:30:04,162 [Thread-144 (] [DEBUG]  header: Content-Encoding: gzip
+2022-08-03 14:30:04,163 [Thread-144 (] [DEBUG]  header: Server: gws
+2022-08-03 14:30:04,163 [Thread-144 (] [DEBUG]  header: X-XSS-Protection: 0
+2022-08-03 14:30:04,164 [Thread-144 (] [DEBUG]  header: X-Frame-Options: SAMEORIGIN
+2022-08-03 14:30:04,165 [Thread-144 (] [DEBUG]  header: Set-Cookie: 1P_JAR=2022-08-03-06; expires=Fri, 02-Sep-2022 06:29:16 GMT; path=/; domain=.google.com; Secure
+2022-08-03 14:30:04,165 [Thread-144 (] [DEBUG]  header: Set-Cookie: AEC=AakniGMTOkyCGsL6fAViAQN3ZOCZcQNXccT_2DZ8wK74HdHOzU4ocmYjEQ; expires=Mon, 30-Jan-2023 06:29:16 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+2022-08-03 14:30:04,166 [Thread-144 (] [DEBUG]  header: Set-Cookie: NID=511=s8e1040KrIwRCuFt3ZMtVmSMslDk78qFVGACf7JVJ-Nd1QcoIplobie6UkxqcFHsKCq8Troh4KXrogFfw7xzNUk5IPapJEGN0cuViP84KdFQ_owzMbhdp-EL6HJPHxQhA__HLi150rfBc2KrZYDCsjtiY2q5CNXAYtrkf1EmPMg; expires=Thu, 02-Feb-2023 06:29:16 GMT; path=/; domain=.google.com; HttpOnly
+2022-08-03 14:30:04,168 [Thread-144 (] [DEBUG]  header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2022-08-03 14:30:04,168 [Thread-144 (] [DEBUG]  header: Transfer-Encoding: chunked
