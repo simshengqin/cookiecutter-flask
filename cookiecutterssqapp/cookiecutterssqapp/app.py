@@ -17,6 +17,11 @@ from cookiecutterssqapp.extensions import (
     migrate,
 )
 
+from pylogging.inbound_logger import LoggingMiddleware
+from pylogging.outbound_logger import setup_outbound_logging  # , setup_logging_session
+from pylogging.file_logger import setup_file_logging 
+from pylogging.pylogger import create_logs_dir 
+from pylogging.pylogger import setup_logging_and_run_flask
 
 def create_app(config_object="cookiecutterssqapp.settings"):
     """Create application factory, as explained here: http://flask.pocoo.org/docs/patterns/appfactories/.
@@ -30,6 +35,12 @@ def create_app(config_object="cookiecutterssqapp.settings"):
     register_errorhandlers(app)
     register_shellcontext(app)
     register_commands(app)
+
+    # create_logs_dir()
+    # app.wsgi_app = LoggingMiddleware(app.wsgi_app)
+    # setup_outbound_logging("flask")
+    # watcher_thread = setup_file_logging("../", "flask")
+    setup_logging_and_run_flask("../", app, port=5001, debug=False)
     configure_logger(app)
     return app
 

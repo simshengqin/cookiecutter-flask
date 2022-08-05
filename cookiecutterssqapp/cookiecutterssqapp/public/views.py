@@ -16,7 +16,7 @@ from cookiecutterssqapp.public.forms import LoginForm
 from cookiecutterssqapp.user.forms import RegisterForm
 from cookiecutterssqapp.user.models import User
 from cookiecutterssqapp.utils import flash_errors
-
+import requests
 blueprint = Blueprint("public", __name__, static_folder="../static")
 
 
@@ -73,5 +73,15 @@ def register():
 @blueprint.route("/about/")
 def about():
     """About page."""
+    print("Hello from the about page!")
+    text = requests.get('https://www.google.com').text
     form = LoginForm(request.form)
     return render_template("public/about.html", form=form)
+
+@blueprint.route('/edit_file')
+def edit_file():
+
+    with open("C:/Users/user/csb.log", "r") as file:
+        print("open csb.log")
+
+    return render_template("public/about.html")
