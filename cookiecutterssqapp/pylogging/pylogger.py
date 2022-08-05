@@ -21,7 +21,7 @@ def setup_logging_and_run_flask(path, app, *args, **kwargs):
     create_logs_dir()
     app.wsgi_app = LoggingMiddleware(app.wsgi_app)
     setup_outbound_logging("flask")
-    setup_file_logging("flask")
+    setup_file_logging()
     try:
         app.run(*args, **kwargs)
     finally:
